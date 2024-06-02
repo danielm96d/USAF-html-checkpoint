@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  
+}
+header{
+  font-size: 20;
+  color: white;
+  padding:10px;
+  display: flex;
+  justify-content:space-between;
+  background-color: #343a40;
+  margin-bottom: 40;
+}
+
+.login-group{
+  display:flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+header button{
+  color:white;
+  background-color:#343a40;
+  border: 0px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+.search{
+  color: #e5b00f;
+}
+
+.content{
+  font-size: 25;
+  font-weight: 500;
+  display: flex;
+  flex-flow:column wrap;
+  align-items:center;
+}
+
+.login-group input{
+  width: 400px;
+  box-shadow: 0px 0px 1px inset;
+  border-radius: 3px;
+  margin-top: 10;
+}
+
+.login-group label{
+  font-weight:100;
+  font-size: initial;
+}
+
+.login-group button{
+  color: white;
+  background-color: #007bff;
+  border: 0px;
+  padding: 8px;
+  border-radius: 3px;
+}
