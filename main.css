@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  
+}
+header{
+  font-size: 20;
+  color: white;
+  padding:10px;
+  display: flex;
+  justify-content:space-between;
+  background-color: #343a40;
+  margin-bottom: 40;
+}
+
+.search{
+  color: #e5b00f;
+  border: 1px solid;
+}
+
+header button{
+  color:white;
+  background-color:#343a40;
+  border: 0px;
+  border-radius: 3px;
+  padding: 7px;
+}
